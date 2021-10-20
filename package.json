@@ -1,0 +1,26 @@
+{
+  "name": "z-plus",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev":"pnpm -C play dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tangjian1891/z-plus.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tangjian1891/z-plus/issues"
+  },
+  "homepage": "https://github.com/tangjian1891/z-plus#readme",
+  "devDependencies": {
+    "typescript": "^4.4.4",
+    "vue": "^3.2.20"
+  }
+}
