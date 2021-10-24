@@ -1,6 +1,7 @@
 import Icon from "./src/icon.vue";
-export default Icon;
-import type { App } from "vue";
-Icon.install = function (app: App) {
-  app.component(Icon.name, Icon);
-};
+
+import { withInstall } from "@z-plus/utils/with-install";
+
+export const ZIcon = withInstall(Icon);
+export default ZIcon;
+
